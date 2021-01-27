@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">String Advanced</string>
+    <string name="pattern_src">src=\"(.*?)\"</string>
+    <string name="pattern_name">alt=\"(.*?)\"</string>
+    <string name="default_button_text">Button</string>
+    <string name="famous_person_picture">image_description</string>
+    <string name="url_posh24">https://svenskainfluencers.nu/</string>
+    <string name="url_base">https://www.listchallenges.com/200-most-famous-people-of-all-time</string>
+    <string name="item_rank_template"><![CDATA[<div class=\"item-rank\">%d</div>(.*?)<div class="item-name">]]></string>
+    <string name="block_pattern"><![CDATA[<div class=\"item-rank\">%d</div>(.*)<div class=\"item-name\">]]></string>
+    <string name="false_block_pattern"><![CDATA[(.*)<div class=\"item-rank\">%d</div>*<div class=\"item-name\">(.*)]]></string>
+</resources>
